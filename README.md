@@ -127,9 +127,27 @@ import {
 ```
 
 ### tsconfig.json imports
-```json
+```javascript
 "baseUrl": "src",
 "paths": {
   "@env/*": ["environments/*"]
 }
 ```
+
+### Observable from child element event
+```typescript
+@Component({
+ selector: 'cont',
+ template: `
+ <button type="button">Click</button> `,
+})
+export class ContComponent {
+  @ViewChild('button') button;
+  clicks$:Observable<any>;
+
+  ngOnInit() {
+    this.clicks$ = Observable.fromEvent(this.button.nativeElement, 'click');
+  }
+}
+```
+

@@ -126,3 +126,10 @@ import {
 } from './users'
 ```
 
+### tsconfig.json imports
+```json
+"baseUrl": "src",
+"paths": {
+  "@env/*": ["environments/*"]
+}
+```

@@ -37,7 +37,7 @@ imports: [ RouterModule.forRoot(routes, { enableTracing: true }) ],
 <user-list [users]="users$ | async as users" *ngIf="users"></user-list>
 ```
 
-### Component recurence
+### Component recursion
 ```typescript
 @Component({
  selector: 'children',

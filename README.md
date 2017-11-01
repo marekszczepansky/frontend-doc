@@ -99,6 +99,7 @@ user.get('details.account.email')
  ngOnDestroy() {
    this.subscriptions.unsubscribe();
  }
+ ```
  
  ### Barrel
 ```typescript

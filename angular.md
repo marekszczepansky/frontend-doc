@@ -17,7 +17,7 @@ _Anywhere above component host_
 ```
 
 ### Router EnableTracing
-```typescript
+```TypeScript
 imports: [ RouterModule.forRoot(routes, { enableTracing: true }) ],
 ```
 
@@ -36,7 +36,7 @@ imports: [ RouterModule.forRoot(routes, { enableTracing: true }) ],
 ```
 
 ### Component recursion
-```typescript
+```TypeScript
 @Component({
  selector: 'children',
  template: `
@@ -58,7 +58,7 @@ export class ChildrenComponent {
 ```
 
 ### Page title change
-```typescript
+```TypeScript
 public constructor(private title : Title ) {}
 ngOnInit {
  this.title.setTitle('Page title');
@@ -79,14 +79,14 @@ ngOnInit {
 ```
 
 ### Model driven controll `get`
-```typescript
+```TypeScript
 user.get('details').get('account').get('email')
 // equals to
 user.get('details.account.email')
 ```
 
 ### Unsubscribe all subscription
-```typescript
+```TypeScript
  subscriptions : new Subscription();
  
  ngOnInit() {
@@ -100,7 +100,7 @@ user.get('details.account.email')
  ```
  
  ### Barrel
-```typescript
+```TypeScript
 /* before */
 // code1.ts file
 import { UsersComponent } from '../users/users.component.ts';
@@ -133,7 +133,7 @@ import {
 ```
 
 ### Observable from child element event
-```typescript
+```TypeScript
 @Component({
  selector: 'cont',
  template: `

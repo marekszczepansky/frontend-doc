@@ -1,6 +1,6 @@
 # Typescript
 ### Typed ES5 map
-```typesctipt
+```javascript
 export interface SimpleChanges {
     [propName: string]: SimpleChange;
 }

@@ -151,3 +151,11 @@ export class ContComponent {
 }
 ```
 
+## Typescript
+
+### Typed ES5 map
+```typesctipr
+export interface SimpleChanges {
+    [propName: string]: SimpleChange;
+}
+```

@@ -19,3 +19,7 @@
 - [Bootstrap](bootstrap.md)
 - [Observable](rxjs.md)
 - [AngularJS](angularjs.md)
+- [Links]
+
+### Links
+- [Client side filtering using streams](https://blog.kwintenp.com/client-side-filtering-with-streams/)

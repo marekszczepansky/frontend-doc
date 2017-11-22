@@ -4,7 +4,7 @@
 ```javascript
     function handleExceptionDelegate($delegate) {
       function exceptionHandler(exception, cause) {
-        3rdPartyLogger.fatalException(cause, exception);
+        a3rdPartyLogger.fatalException(cause, exception);
         $delegate(exception, cause);
       }
       return exceptionHandler;

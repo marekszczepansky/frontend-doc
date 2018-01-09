@@ -151,6 +151,9 @@ export class ContComponent {
 
 ### Highlight link/tab/button by active route
 ```html
-<button routerLink="tab1" routerLinkActive="class1 class2" #route="routerLinkActive">Tab1<span *ngIf="route.isActive"> *</span></button>
+<button routerLink="tab1" routerLinkActive="class1 class2" #route="routerLinkActive">
+  Tab1<span *ngIf="route.isActive"> *</span>
+</button>
 <button routerLink="tab2" [routerLinkActive]="['class1', 'class2']">Tab2</button>
 ```
+[RouterLinkActive](https://angular.io/api/router/RouterLinkActive)

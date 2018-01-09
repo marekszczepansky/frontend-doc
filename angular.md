@@ -7,7 +7,7 @@
   color: white;
 }
 ```
-_Anywhere above component host_
+_Anywhere above component host_ [doc](https://angular.io/guide/component-styles#host)
 
 ### :HOST (css)
 ```css
@@ -15,11 +15,13 @@ _Anywhere above component host_
   background: #000000;
 }
 ```
+[doc](https://angular.io/guide/component-styles#host-context)
 
 ### Router EnableTracing
 ```TypeScript
 imports: [ RouterModule.forRoot(routes, { enableTracing: true }) ],
 ```
+[doc](https://angular.io/api/router/RouterModule#forRoot)
 
 ### Style binding
 ```html
@@ -27,6 +29,7 @@ imports: [ RouterModule.forRoot(routes, { enableTracing: true }) ],
 <!-- equals to -->
 <div [style.width.%]="someValue">Hey!</div>
 ```
+[doc](https://angular.io/guide/template-syntax#style-binding)
 
 ### Display when ready
 ```html

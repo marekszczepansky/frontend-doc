@@ -136,8 +136,7 @@ import {
 ```TypeScript
 @Component({
  selector: 'cont',
- template: `
- <button type="button">Click</button> `,
+ template: `<button type="button">Click</button> `,
 })
 export class ContComponent {
   @ViewChild('button') button;

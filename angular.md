@@ -1,6 +1,6 @@
 # Angular
 
-### :HOST-CONTEXT
+### :HOST-CONTEXT (css)
 ```css
 :host-context(.selected) .container {
   background: red; 
@@ -9,7 +9,7 @@
 ```
 _Anywhere above component host_
 
-### :HOST
+### :HOST (css)
 ```css
 :host(.theme-dark) .container {
   background: #000000;
@@ -147,4 +147,10 @@ export class ContComponent {
     this.clicks$ = Observable.fromEvent(this.button.nativeElement, 'click');
   }
 }
+```
+
+### Highlight link/tab/button by active route
+```html
+<button routerLink="tab1" routerLinkActive="class1 class2" #route="routerLinkActive">Tab1<span *ngIf="route.isActive"> *</span></button>
+<button routerLink="tab2" [routerLinkActive]="['class1', 'class2']">Tab2</button>
 ```

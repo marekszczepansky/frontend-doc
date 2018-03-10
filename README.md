@@ -32,3 +32,5 @@
 - [Polski blog dla sympatyków Angulara 2](http://www.angular.love/)
 - [Equivalent of $compile in Angular 2](https://stackoverflow.com/questions/34784778/equivalent-of-compile-in-angular-2)
 - [Angular core/feature/shared modules: what goes where](https://stackoverflow.com/questions/42779871/angular-core-feature-shared-modules-what-goes-where)
+- [ES2018: Rest/Spread Properties](http://2ality.com/2016/10/rest-spread-properties.html)
+- [Redesigning Redux - Rematch](https://hackernoon.com/redesigning-redux-b2baee8b8a38)

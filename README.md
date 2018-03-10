@@ -15,6 +15,7 @@
   - [Barrel](angular.md#barrel)
   - [tsconfig.json imports](angular.md#tsconfigjson-imports)
   - [Observable from child element event](angular.md#observable-from-child-element-event)
+  - [Highlight link/tab/button by active route](angular.md#highlight-linktabbutton-by-active-route)
 - [Typescript](typescript.md)
 - [Bootstrap](bootstrap.md)
 - [Observable](rxjs.md)

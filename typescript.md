@@ -13,7 +13,7 @@ export interface SimpleChanges {
 ['ala','Ela','olA'].map(Function.prototype.call, String.prototype.toLocaleUpperCase);
 ```
 ### Object clone with prototype
-```
+```TypeScript
 const clone = Object.create(
     Object.getPrototypeOf(source),
     Object.getOwnPropertyDescriptors(source));

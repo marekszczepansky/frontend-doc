@@ -34,3 +34,5 @@
 - [Angular core/feature/shared modules: what goes where](https://stackoverflow.com/questions/42779871/angular-core-feature-shared-modules-what-goes-where)
 - [ES2018: Rest/Spread Properties](http://2ality.com/2016/10/rest-spread-properties.html)
 - [Redesigning Redux - Rematch](https://hackernoon.com/redesigning-redux-b2baee8b8a38)
+- [Glenn Vanderburg](http://vanderburg.org/blog/)
+- [How to create and publish chrome extension in 20 min](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)

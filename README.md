@@ -36,3 +36,4 @@
 - [Redesigning Redux - Rematch](https://hackernoon.com/redesigning-redux-b2baee8b8a38)
 - [Glenn Vanderburg](http://vanderburg.org/blog/)
 - [How to create and publish chrome extension in 20 min](https://medium.freecodecamp.org/how-to-create-and-publish-a-chrome-extension-in-20-minutes-6dc8395d7153)
+- [Building an Angular 4 Component Library with the Angular CLI and ng-packagr](https://medium.com/@nikolasleblanc/building-an-angular-4-component-library-with-the-angular-cli-and-ng-packagr-53b2ade0701e)

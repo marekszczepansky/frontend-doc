@@ -20,6 +20,7 @@
 - [Bootstrap](bootstrap.md)
 - [Observable](rxjs.md)
 - [AngularJS](angularjs.md)
+- [HTML](html.md)
 - [Links](#links)
 
 ### Links

@@ -21,6 +21,7 @@
 - [Observable](rxjs.md)
 - [AngularJS](angularjs.md)
 - [HTML](html.md)
+  - [Open preview in a new tab](html.md#open-preview-in-new-tab)
 - [Links](#links)
 
 ### Links
